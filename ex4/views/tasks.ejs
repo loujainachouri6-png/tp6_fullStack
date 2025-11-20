@@ -1,0 +1,8 @@
+<h1>Tasks</h1>
+<p>Total tasks: <%= count %></p>
+
+<ul>
+    <% tasks.forEach(t => { %>
+        <li><%= t.title %></li>
+    <% }) %>
+</ul>
